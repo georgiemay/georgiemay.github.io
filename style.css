@@ -1,0 +1,214 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: 'Fredoka One', sans-serif;
+    text-shadow: 
+    5px 5px 0 rgb(9, 156, 19),   /* Bottom right */
+    -1px -1px 0 rgb(9, 156, 19), /* Top left */
+    1px -1px 0 rgb(9, 156, 19),  /* Top right */
+    -1px 1px 0 rgb(9, 156, 19);  /* Bottom left */
+    font-size: 6vh;
+}
+
+
+
+body > header {
+    background-color: rgb(12, 89, 17);
+    color: rgb(227, 174, 235);
+    height: 15vh;
+    display: flex;
+    align-items: everything;
+    justify-content: space-around;
+}
+
+#goto {
+    margin-left: 20px;
+}
+
+nav {
+    list-style: none;
+}
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 20%;
+    justify-content: center;
+}
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: rgb(12, 89, 17, 0.78);
+    text-decoration: none;
+    padding: 30px;
+    border: 4px solid rgb(12, 89, 17); /* Add border around each button */
+    border-radius: 20px;       /* Optional: to round the corners of the box */
+    width: 15px;  /* Fixed width to make all buttons the same size */
+    height: 10px;  /* Fixed height to ensure equal button size */
+            
+    display: flex;  /* Flexbox for centering content */
+    justify-content: center;  /* Center text horizontally */
+    align-items: center;
+}
+
+body > main article  {
+    width: 90%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+}
+
+#main-content div{
+    width: 90%;
+}
+.recipe-container {
+    display: flex;     /* Flexbox container */
+    justify-content: flex-start; /* Space between the two sections */
+    gap: 10px;  /* Space between the ingredients and recipe */
+    padding: 20px;
+  }
+
+  .ingredients {
+    padding: 0px;
+    border-radius: 5px;
+    flex: 2;
+    width: 100%;
+    line-height: 2;
+  }
+  .ingredients ul {
+    list-style-position: inside; /* Optional: Keeps bullets aligned with text */
+    padding-left: 0; /* Removes the padding that creates indent */
+    margin-left: 0;  /* Removes any extra margin */
+}
+
+.ingredients li {
+    padding-left: 0; /* Removes any extra padding from list items */
+    margin-left: 0;  /* Removes any extra margin from list items */
+}
+  
+  .instructions {
+    background-color: rgba(227, 174, 235, 0.436); ;  
+    padding: 0px;
+    border-radius: 5px;
+    flex: 7;
+  }
+
+#coolstuff  {
+    display: grid;
+    grid-template-columns: 
+    "box1 box2 box3 box4"
+    "box5 box6 box7 box8";
+    grid-template-columns: 1fr 1fr;
+    height: 35vh;
+    gap: 30px;
+    justify-content: space-around;
+    margin: 35px;
+}
+#box1 {
+    color: rgb(12, 89, 17);
+    text-decoration: none;
+    text-decoration-color: rgb(12, 89, 17);
+    font-size: 2vw;
+    text-align: center;
+    padding:10px;
+    border-radius: 20%;
+    background-color: rgb(227, 174, 235);
+}
+#box2 {
+    color: rgb(12, 89, 17);
+    text-decoration: none;
+    text-decoration-color: rgb(12, 89, 17);
+    font-size: 2vw;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20%;
+    background-color: rgb(227, 174, 235);
+}
+#box3 {
+    color: rgb(12, 89, 17);
+    text-decoration: none;
+    text-decoration-color: rgb(12, 89, 17);
+    font-size: 2vw;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20%;
+    background-color: rgb(227, 174, 235);
+}
+#box4 {
+    color: rgb(12, 89, 17);
+    text-decoration: none;
+    text-decoration-color: rgb(12, 89, 17);
+    font-size: 2vw;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20%;
+    background-color: rgb(227, 174, 235);
+}
+#box5 {
+    color: rgb(12, 89, 17);
+    text-decoration: none;
+    text-decoration-color: rgb(12, 89, 17);
+    font-size: 2vw;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20%;
+    background-color: rgb(227, 174, 235);
+}
+#box6 {
+    color: rgb(12, 89, 17);
+    text-decoration: none;
+    text-decoration-color: rgb(12, 89, 17);
+    font-size: 2vw;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20%;
+    background-color: rgb(227, 174, 235);
+}
+#box7 {
+    color: rgb(12, 89, 17);
+    text-decoration: none;
+    text-decoration-color: rgb(12, 89, 17);
+    font-size: 2vw;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20%;
+    background-color: rgb(227, 174, 235);
+}
+#box8 {
+    color: rgb(12, 89, 17);
+    text-decoration: none;
+    text-decoration-color: rgb(12, 89, 17);
+    font-size: 2vw;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20%;
+    background-color: rgb(227, 174, 235);
+}
+
+body > footer {
+    background-color: rgb(12, 89, 17);
+    color: rgb(227, 174, 235);
+    margin: 22px 0px 0px 0px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Fredoka One', sans-serif;
+    text-shadow: 
+    2px 2px 0 rgb(9, 156, 19),   /* Bottom right */
+    -1px -1px 0 rgb(9, 156, 19), /* Top left */
+    1px -1px 0 rgb(9, 156, 19),  /* Top right */
+    -1px 1px 0 rgb(9, 156, 19);  /* Bottom left */
+    font-size: 2vh;
+
+}
+
